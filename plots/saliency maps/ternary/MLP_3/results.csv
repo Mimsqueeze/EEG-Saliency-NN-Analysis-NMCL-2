@@ -1,0 +1,22 @@
+Classifier,MLP_3
+Summary,"Model: ""sequential""
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten (Flatten)           (None, 23064)             0         
+                                                                 
+ dense (Dense)               (None, 128)               2952320   
+                                                                 
+ dense_1 (Dense)             (None, 3)                 387       
+                                                                 
+=================================================================
+Total params: 2,952,707
+Trainable params: 2,952,707
+Non-trainable params: 0
+_________________________________________________________________"
+Number of Epochs,200
+Mean Fit Time,77.47867364883423
+Mean Train Accuracy,0.9996807336807251
+Mean Train Loss,0.006588741694577039
+Mean Test Accuracy,0.9235323607921601
+Mean Test Loss,0.31591416001319883
