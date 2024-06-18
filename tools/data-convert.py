@@ -9,8 +9,8 @@ import os
 #          saves the data into ./data for feature extraction
 # --------------------------------------------------------------------
 
-# Reads in the data, applies a filter, re-references the data, converts the
-# data into a pandas DataFrame, and saves the data as csv into ./data
+# Reads in the data, converts the data into a pandas DataFrame, and saves 
+# the data as csv into ./raw-data
 def main():
 
     # Subject number of data to be processed

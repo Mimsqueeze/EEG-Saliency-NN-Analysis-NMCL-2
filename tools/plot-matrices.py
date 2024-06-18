@@ -7,8 +7,7 @@ import numpy as np
 # ----------------------- author: Minsi Hu ---------------------------
 
 # ----------------------- program description: -----------------------
-#         Performs classification of varying levels of mental
-#    workload on EEG features extracted from feature_extraction.py
+#         Plots average coherence matrices of all 29 subjects
 # --------------------------------------------------------------------
 
 RANGES = ["Theta (4-7 Hz)", "Low-Alpha (8-10 Hz)", "High-Alpha (11-13 Hz)", 
@@ -47,8 +46,7 @@ def plot_m(matrix, filename):
 """
 The main() function
 
-Reads features produced by feature_extraction.py, and performs 
-classification on the EEG data. Saves the results into ./results
+Plots average coherence matrices of all 29 subjects
 """
 def main():
 

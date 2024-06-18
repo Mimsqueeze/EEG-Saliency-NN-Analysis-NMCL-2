@@ -8,7 +8,7 @@ import pandas as pd
 
 # ----------------------- program description: -----------------------
 #            Plots the performance of different classifiers
-#         in classifying mental workload of EEG data
+#              in classifying mental workload of EEG data
 # --------------------------------------------------------------------
 
 """

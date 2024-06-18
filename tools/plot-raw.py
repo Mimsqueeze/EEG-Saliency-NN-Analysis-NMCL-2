@@ -4,10 +4,14 @@ import os
 # ----------------------- author: Minsi Hu ---------------------------
 
 # ----------------------- program description: -----------------------
-#               write what this source file does, briefly.
+#                       Plots the raw EEG data
 # --------------------------------------------------------------------
 
-# -- write a brief description of your main function --
+"""
+The main() function
+
+Plots the raw EEG data
+"""
 def main():
     # Subject number
     n = 1
